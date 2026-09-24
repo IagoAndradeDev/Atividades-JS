@@ -16,22 +16,22 @@ moedaConversao.addEventListener("change", function(){
     if (moedaConversao.value == "Dolar"){
         dadosConversor.moeda = "Dolar"
         dadosConversor.valor = 5.17
-        imagem.src = "eua.png"
+        imagem.src = "img/eua.png"
         nomeMoeda.innerHTML = "Dolar"
     } else if (moedaConversao.value == "Euro"){
         dadosConversor.moeda = "Euro"
         dadosConversor.valor = 5.88
-        imagem.src = "euro.png"
+        imagem.src = "img/euro.png"
         nomeMoeda.innerHTML = "Euro"
     } else if (moedaConversao.value == "Libra"){
         dadosConversor.moeda = "Libra"
         dadosConversor.valor = 6.86
-        imagem.src = "libra.png"
+        imagem.src = "img/libra.png"
         nomeMoeda.innerHTML = "Libra"
     } else if (moedaConversao.value == "Bitcoin"){
         dadosConversor.moeda = "Bitcoin"
         dadosConversor.valor = 437445.32
-        imagem.src = "bitcoin.png"
+        imagem.src = "img/bitcoin.png"
         nomeMoeda.innerHTML = "Bitcoin"
     }
 })
